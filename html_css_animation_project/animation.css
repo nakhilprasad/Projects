@@ -1,0 +1,83 @@
+.backgrounddesign .toptext
+{
+    animation: toptextanim 2s ease;
+}
+
+@keyframes toptextanim {
+    0%
+    {
+        transform: translatex(-100px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translatex(0);
+        opacity: 1;
+    }
+}
+.backgrounddesign .bottomtext
+{
+    animation: bottomtextanim 2s ease;
+}
+
+@keyframes bottomtextanim {
+    0%
+    {
+        transform: translatex(300px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translatex(0);
+        opacity: 1;
+    }
+}
+nav{
+    animation: navanim 2s ease;
+}
+@keyframes navanim {
+    0%
+    {
+        transform: translatey(60px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translatey(0);
+        opacity: 1;
+    }
+}
+
+.content .text
+{
+    animation: textanim 2s ease;
+}
+@keyframes textanim {
+    0%
+    {
+        transform: translatey(-30px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translatey(0);
+        opacity: 1;
+    }
+}
+
+.content .controler
+{
+    animation: controleranim 2s ease;
+}
+@keyframes controleranim {
+    0%
+    {
+        transform: translatey(500px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translatey(0);
+        opacity: 1;
+    }
+}

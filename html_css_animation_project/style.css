@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    overflow: hidden;
+    background-color: #e0e0e0 ;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.backgrounddesign
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    font-size: 23rem;
+    font-weight: bolder;
+    /* z-index: 1; */
+}
+
+.backgrounddesign span{
+    background: linear-gradient(90deg,#007ede9a,#c300ff80);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}  
+
+.backgrounddesign .toptext
+{
+    position: absolute;
+    top: -150px;
+
+}
+
+.backgrounddesign .bottomtext
+{
+    position: absolute;
+    bottom: -150px;
+    right: -90px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    height: 140px;
+}
+
+.play img {
+    width: 90px;
+    position: relative; 
+    z-index: 9999; 
+}
+
+
+.source
+{
+    display: flex;
+    gap:50px;
+    list-style: none;
+}
+
+.source li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold ;
+}
+.content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 70px;
+}
+.space
+{
+    margin-top:100px ;
+}
+.content .text h1{
+    font-size:90px;
+    margin-bottom: 10px;
+
+}
+.space
+{
+    padding-top:50px ;
+}
+
+.content .text p{
+    font-size:30px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+
+.content .text button
+{
+    border:none;
+    padding:  15px 25px;
+    border-radius: 50px;
+    font-size: 20px;
+    background: linear-gradient(90deg,#007ede9a,#c300ff80);
+    cursor: pointer;
+}
+
+.controler img{
+    width: 600px;
+    filter: contrast(120%);
+}
